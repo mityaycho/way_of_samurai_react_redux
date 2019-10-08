@@ -9,29 +9,10 @@
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+  grid-gap: 0px;
 }
 
-.header {
-  grid-area: h;
-  background-color: lightgreen;
-}
-
-.header img {
-  width: 100px;
-}
-
-.nav {
-  grid-area: n;
-  background-color: lightgrey;
-}
-
-.content {
+.app-wrapper-content {
   grid-area: c;
   background-color: lightcoral;
-}
-
-.content img {
-  height: 400px;
-  width: 100%;
 }
