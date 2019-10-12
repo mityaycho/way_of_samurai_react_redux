@@ -25,4 +25,13 @@ const state = {
   sideBar: {}
 };
 
+export let addPost = (postMessage) => {
+  let newPost = {
+    id: 6,
+    message: postMessage
+  };
+  state.profilePage.posts.push(newPost);
+  return alert(state.profilePage.posts.map(el => el.message))
+};
+
 export default state;
