@@ -28,13 +28,13 @@ const state = {
 };
 
 export let addPost = (postMessage) => {
-  rerenderEntireTree();
   let newPost = {
-    id: 6,
-    message: postMessage
+    id: state.profilePage.posts.length + 1,
+    message: postMessage,
+    likesCount: 0
   };
   state.profilePage.posts.push(newPost);
-  return alert(state.profilePage.posts.map(el => el.message));
+  rerenderEntireTree(state);
 };
 
 export default state;
