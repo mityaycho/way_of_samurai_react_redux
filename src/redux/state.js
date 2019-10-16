@@ -1,3 +1,6 @@
+const ADD_POST = 'ADD-POST';
+const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
+
 const store = {
   _state: {
     profilePage: {
@@ -52,6 +55,14 @@ const store = {
       this._callSubscriber(this._state);
     }
   }
+};
+
+export const addPostActionCreator = () => {
+  return { type: ADD_POST };
+};
+
+export const updateNewPostTextActionCreator = (text) => {
+  return { type: UPDATE_NEW_POST_TEXT, newText: text };
 };
 
 export default store;
