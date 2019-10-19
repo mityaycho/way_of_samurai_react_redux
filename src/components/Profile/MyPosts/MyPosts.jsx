@@ -20,7 +20,10 @@ const MyPosts = (props) => {
       <h3>My posts</h3>
       <div>
         <div>
-          <textarea ref={newPostElement} onChange={onPostChange} value={props.newPostText} name="" id="" cols="30" rows="1"></textarea>
+          <textarea
+            ref={newPostElement}
+            onChange={onPostChange}
+            value={props.newPostText} name="" id="" cols="30" rows="1"></textarea>
         </div>
         <div>
           <button onClick={addPost}>Add post</button>
