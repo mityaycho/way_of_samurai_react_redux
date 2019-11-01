@@ -1,22 +1,18 @@
 import React from 'react';
 import style from './Users.module.css';
-import * as axios from  'axios';
+import * as axios from 'axios';
 import userPhoto from '../../assets/images/user-icon-small-size.png';
 
 class Users extends React.Component {
-  getUsers = () => {
-    if (this.props.users.length === 0) {
-      axios.get("https://social-network.samuraijs.com/api/1.0/users")
-        .then(res => {
-          this.props.setUsers(res.data.items)
-        });
-    };
-  };
+
+  componentDidMount() {
+    axios.get("https://social-network.samuraijs.com/api/1.0/users")
+      .then(res => this.props.setUsers(res.data.items));
+  }
 
   render() {
     return (
       <div>
-        <button onClick={this.getUsers}>Get users</button>
         {this.props.users.map(el => <div key={el.id}>
         <span>
           <div>
