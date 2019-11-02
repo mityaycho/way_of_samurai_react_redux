@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,18 +45,18 @@
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\assets\images" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -126,7 +127,9 @@
       <workItem from="1572600800647" duration="9538000" />
       <workItem from="1572620573662" duration="46000" />
       <workItem from="1572628366212" duration="33000" />
-      <workItem from="1572628437891" duration="8547000" />
+      <workItem from="1572628437891" duration="8760000" />
+      <workItem from="1572688794762" duration="705000" />
+      <workItem from="1572722840658" duration="930000" />
     </task>
     <servers />
   </component>
