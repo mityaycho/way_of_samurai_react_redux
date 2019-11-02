@@ -14,7 +14,7 @@ let Users = (props) => {
         <div className={style.pagesNumbers}>
           {pages.map(el => {
             return <span className={props.currentPage === el && style.selectedPage}
-            onClick={(event) => onPageChanged(el)}>{el}</span>;
+            onClick={(event) => props.onPageChanged(el)}>{el}</span>;
           })}
         </div>
         {props.users.map(el => <div key={el.id}>
