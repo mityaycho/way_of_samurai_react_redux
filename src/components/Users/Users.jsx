@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Users.module.css';
 import userPhoto from '../../assets/images/user-icon-small-size.png';
+import {NavLink} from "react-router-dom";
 
 
 let Users = (props) => {
@@ -9,25 +10,26 @@ let Users = (props) => {
   for (let i = 1; i <= pagesCount; i++) {
     pages.push(i);
   }
-    return (
-      <div>
-        <div className={style.pagesNumbers}>
-          {pages.map(el => {
-            return <span className={props.currentPage === el && style.selectedPage}
-            onClick={(event) => props.onPageChanged(el)}>{el}</span>;
-          })}
-        </div>
-        {props.users.map(el => <div key={el.id}>
+  return (
+    <div>
+      <div className={style.pagesNumbers}>
+        {pages.map(el => <span className={props.currentPage === el && style.selectedPage}
+                               onClick={(event) => props.onPageChanged(el)}>{el}</span>)}
+      </div>
+      {props.users.map(el => <div key={el.id}>
         <span>
           <div>
-            <img className={style.usersImg} src={el.photos.small != null ? el.photos.small : userPhoto} alt=""/>
+            <NavLink to={'/profile'}>
+            <img className={style.usersImg}
+                 src={el.photos.small != null ? el.photos.small : userPhoto} alt=""/>
+            </NavLink>
           </div>
           <div>
             {el.followed ? <button onClick={() => props.unfollow(el.id)}>Unfollow</button> :
               <button onClick={() => props.follow(el.id)}>Follow</button>}
           </div>
         </span>
-          <span>
+        <span>
           <span>
            <div>{el.name}</div>
            <div>{el.status}</div>
@@ -37,9 +39,9 @@ let Users = (props) => {
            <div>{"el.location.city"}</div>
           </span>
         </span>
-        </div>)}
-      </div>
-    );
+      </div>)}
+    </div>
+  );
 };
 
 export default Users;
