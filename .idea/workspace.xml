@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,19 +49,19 @@
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\assets\images" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Header" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -135,7 +136,9 @@
       <workItem from="1572688794762" duration="705000" />
       <workItem from="1572722840658" duration="6339000" />
       <workItem from="1572778467492" duration="55000" />
-      <workItem from="1572778734792" duration="14131000" />
+      <workItem from="1572778734792" duration="14378000" />
+      <workItem from="1572861264801" duration="12000" />
+      <workItem from="1572880166061" duration="12354000" />
     </task>
     <servers />
   </component>
