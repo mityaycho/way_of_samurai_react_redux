@@ -20,5 +20,9 @@ export const usersAPI = {
   unfollowUsers(id) {
     return instance.delete(`follow/${id}`)
       .then(res => res.data);
+  },
+  setUserProfile(userId) {
+    return instance.post(`profile/${userId}`)
+      .then(res => res.data);
   }
 };
