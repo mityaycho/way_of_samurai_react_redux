@@ -22,7 +22,11 @@ export const usersAPI = {
       .then(res => res.data);
   },
   setUserProfile(userId) {
-    return instance.post(`profile/${userId}`)
+    return instance.get(`profile/${userId}`)
+      .then(res => res.data);
+  },
+  setAuthUserData(){
+    return instance.get(`auth/me`)
       .then(res => res.data);
   }
 };
