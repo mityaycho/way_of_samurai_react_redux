@@ -1,8 +1,15 @@
 .headerPhoto {
     height: 400px;
     width: 100%;
+    background: url("http://h2.hqtexture.com/98/9735/1457619934-1.jpg");
+    background-size: cover;
 }
 
 .descriptionBlock {
     padding: 10px;
+}
+
+.spanText {
+    color: white;
+    font-size: large;
 }
