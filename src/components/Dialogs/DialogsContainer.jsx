@@ -4,12 +4,7 @@ import {connect} from "react-redux";
 import React from "react";
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 
-let mapStateToProps = (state) => {
-  return {
-    dialogsPage: state.dialogsPage,
-    isAuth: state.auth.isAuth
-  };
-};
+let mapStateToProps = (state) => ({dialogsPage: state.dialogsPage});
 
 let mapDispatchToProps = (dispatch) => {
   return {
