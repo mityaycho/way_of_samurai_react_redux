@@ -13,7 +13,7 @@ let reducers = combineReducers({
   usersPage: usersReducer,
   auth: authReducer,
   status: setStatus
-})
+});
 
 let store = createStore(reducers, applyMiddleware(thunkMiddleware));
 

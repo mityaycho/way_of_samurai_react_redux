@@ -13,7 +13,6 @@ class ProfileContainer extends React.Component {
     if (!userId) {
       userId = 2;
     }
-    ;
     this.props.getUserProfile(userId);
     this.props.getStatus(userId);
   };
@@ -25,7 +24,7 @@ class ProfileContainer extends React.Component {
                     updateStatus={this.props.updateStatus}
     />;
   };
-};
+}
 
 let mapStateToProps = (state) => ({
   profile: state.profilePage.profile,

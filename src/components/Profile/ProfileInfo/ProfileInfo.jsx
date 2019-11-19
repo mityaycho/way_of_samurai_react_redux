@@ -6,7 +6,7 @@ import ProfileStatus from "./ProfileStatus"
 const ProfileInfo = (props) => {
   if (!props.profile) {
     return <Preloader />;
-  };
+  }
 
   return (
     <div className={style.headerPhoto}>
@@ -19,6 +19,6 @@ const ProfileInfo = (props) => {
       </div>
     </div>
   );
-}
+};
 
 export default ProfileInfo;
