@@ -7,13 +7,13 @@ const MyPosts = (props) => {
 
   let postsElements = props.posts.map(el => <Post message={el.message} likesCount={el.likesCount} />);
   let onAddPost = (values) => {
-    props.addPost(values.handleSubmit);
+    props.addPost(values.newPostText);
   };
 
   return (
     <div className={style.postBlock}>
       <h3>My posts</h3>
-      <AddNewReduxForm onSubmit={onAddPost}/>
+      <AddNewPostFormRedux onSubmit={onAddPost}/>
       <div className={style.post}>
         { postsElements }
       </div>
@@ -26,7 +26,7 @@ const AddNewPostForm = (props) => {
     <form onSubmit={props.handleSubmit}>
       <div>
           <Field
-            placeholder="add message" name="addPosts" component="textarea" cols="30" rows="1" />
+            placeholder="add message" name="newPostText" component="textarea" cols="30" rows="1" />
       </div>
       <div>
         <button>Add post</button>
@@ -35,6 +35,6 @@ const AddNewPostForm = (props) => {
   );
 };
 
-const AddNewReduxForm = reduxForm({form: "addPosts"})(AddNewPostForm)
+const AddNewPostFormRedux = reduxForm({form: "profileAddNewPostForm"})(AddNewPostForm)
 
 export default MyPosts;
