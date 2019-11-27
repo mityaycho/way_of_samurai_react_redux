@@ -1,5 +1,5 @@
 import React from 'react';
-import preloader from "../../../../assets/images/aug-4-2017-6-11-pm.gif";
+import preloader from "../../../assets/images/aug-4-2017-6-11-pm.gif";
 
 
 let Preloader = (props) => {

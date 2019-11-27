@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/AddPostForm/AddPostForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/common/Preloader/Preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,28 +47,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\assets\images" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Header" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,7 +183,12 @@
       <workItem from="1574276274763" duration="75000" />
       <workItem from="1574277553521" duration="2000" />
       <workItem from="1574278157693" duration="1000" />
-      <workItem from="1574329243020" duration="6349000" />
+      <workItem from="1574329243020" duration="9704000" />
+      <workItem from="1574349015012" duration="167000" />
+      <workItem from="1574351388287" duration="1560000" />
+      <workItem from="1574673042775" duration="1917000" />
+      <workItem from="1574687742053" duration="150000" />
+      <workItem from="1574856510936" duration="6174000" />
     </task>
     <servers />
   </component>

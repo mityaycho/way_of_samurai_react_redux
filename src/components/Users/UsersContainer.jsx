@@ -8,7 +8,7 @@ import {
   unfollow
 } from '../../redux/users-reducer';
 import Users from './Users';
-import Preloader from "../Dialogs/common/Preloader/Preloader";
+import Preloader from "../common/Preloader/Preloader";
 import {compose} from "redux";
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 
