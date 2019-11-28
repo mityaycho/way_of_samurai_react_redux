@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,19 +49,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Header" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\assets\images" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Header" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,7 +182,9 @@
       <workItem from="1574687742053" duration="150000" />
       <workItem from="1574856510936" duration="6174000" />
       <workItem from="1574862869978" duration="132000" />
-      <workItem from="1574863992862" duration="10842000" />
+      <workItem from="1574863992862" duration="11708000" />
+      <workItem from="1574930631970" duration="889000" />
+      <workItem from="1574932943518" duration="5147000" />
     </task>
     <servers />
   </component>
