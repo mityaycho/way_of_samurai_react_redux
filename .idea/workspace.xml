@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="add some changes">
+    <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/users-selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +41,14 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../10-todolist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../11-todo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,13 +58,6 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Header" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components" />
@@ -60,18 +65,13 @@
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\ProfileInfo" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Header" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.Post.jsx">
     <configuration name="Post.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Profile/MyPosts/Post.jsx" working-dir="$PROJECT_DIR$/src/components/Profile">
@@ -93,6 +93,18 @@
         <item itemvalue="Node.js.Post.jsx" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -185,6 +197,12 @@
       <workItem from="1574953863695" duration="51000" />
       <workItem from="1574953947605" duration="42000" />
       <workItem from="1574964498772" duration="2109000" />
+      <workItem from="1575223932352" duration="182000" />
+      <workItem from="1575283477011" duration="620000" />
+      <workItem from="1575534230839" duration="668000" />
+      <workItem from="1575539349661" duration="3740000" />
+      <workItem from="1575543632904" duration="7183000" />
+      <workItem from="1575556032696" duration="2843000" />
     </task>
     <task id="LOCAL-00001" summary="add app-reducer">
       <created>1574950052902</created>
@@ -200,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574951698813</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add some changes">
+      <created>1575224072126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575224072126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,5 +248,27 @@
     <MESSAGE value="add app-reducer" />
     <MESSAGE value="add some changes" />
     <option name="LAST_COMMIT_MESSAGE" value="add some changes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1575559076143">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="580" y="188" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575559076143" />
+    <state width="1453" height="222" key="GridCell.Tab.0.bottom" timestamp="1575559080113">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="222" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575559080113" />
+    <state width="1453" height="222" key="GridCell.Tab.0.center" timestamp="1575559080113">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="222" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575559080113" />
+    <state width="1453" height="222" key="GridCell.Tab.0.left" timestamp="1575559080113">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="222" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575559080113" />
+    <state width="1453" height="222" key="GridCell.Tab.0.right" timestamp="1575559080113">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1453" height="222" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575559080113" />
   </component>
 </project>
