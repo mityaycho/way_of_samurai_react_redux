@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/users-selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +195,7 @@
       <workItem from="1575539349661" duration="3740000" />
       <workItem from="1575543632904" duration="7183000" />
       <workItem from="1575556032696" duration="2843000" />
+      <workItem from="1575575549317" duration="226000" />
     </task>
     <task id="LOCAL-00001" summary="add app-reducer">
       <created>1574950052902</created>
@@ -225,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575224072126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add useState">
+      <created>1575575725354</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575575725354</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,9 +247,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add app-reducer" />
     <MESSAGE value="add some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some changes" />
+    <MESSAGE value="add useState" />
+    <option name="LAST_COMMIT_MESSAGE" value="add useState" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1575575724459">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575575724459" />
     <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1575559076143">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -270,5 +275,9 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1453" height="222" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575559080113" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575575739427">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575575739427" />
   </component>
 </project>
