@@ -1,0 +1,8 @@
+.pagesNumbers span {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.selectedPage {
+    font-weight: bold;
+}

@@ -3,12 +3,3 @@
     width: 70px;
     border-radius: 30px;
 }
-
-.pagesNumbers span {
-    padding: 5px;
-    cursor: pointer;
-}
-
-.selectedPage {
-    font-weight: bold;
-}

@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/object-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Users" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,19 +56,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\ProfileInfo" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Header" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common\Paginator" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\assets\images" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\ProfileInfo" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.after deleting length of messages should be decrement">
@@ -255,7 +251,7 @@
       <workItem from="1576007575979" duration="59000" />
       <workItem from="1576064201500" duration="10000" />
       <workItem from="1576081522492" duration="8907000" />
-      <workItem from="1576142845890" duration="4699000" />
+      <workItem from="1576142845890" duration="7531000" />
     </task>
     <task id="LOCAL-00001" summary="add app-reducer">
       <created>1574950052902</created>
@@ -313,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576007612769</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add some changes">
+      <created>1576150932714</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576150932714</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,10 +342,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add some changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576150898275">
+    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576150932058">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576150898275" />
+    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576150932058" />
     <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1575559076143">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -363,9 +366,9 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576146380731" />
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576007625063">
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576150939726">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576007625063" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576150939726" />
   </component>
 </project>
