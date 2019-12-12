@@ -23,25 +23,10 @@ class UsersContainer extends React.Component {
 
   componentDidMount() {
     this.props.requestUsers(this.props.currentPage, this.props.pageSize);
-
-    // this.props.toggleIsFetching(true);
-    // usersAPI.requestUsers(this.props.currentPage, this.props.pageSize)
-    //   .then(data => {
-    //     this.props.toggleIsFetching(false);
-    //     this.props.setUsers(data.items);
-    //     this.props.setTotalUsersCount(data.totalCount);
-    //   });
   };
 
   onPageChanged = (pageNumber) => {
     this.props.requestUsers(pageNumber, this.props.pageSize)
-    // this.props.setCurrentPage(pageNumber);
-    // this.props.toggleIsFetching(true);
-    // usersAPI.requestUsers(pageNumber, this.props.pageSize)
-    //   .then(data => {
-    //     this.props.toggleIsFetching(false);
-    //     this.props.setUsers(data.items);
-    //   });
   };
 
   render() {
@@ -60,17 +45,6 @@ class UsersContainer extends React.Component {
   };
 }
 
-// let mapStateToProps = (state) => {
-//   return {
-//     users: state.usersPage.users,
-//     pageSize: state.usersPage.pageSize,
-//     totalUsersCount: state.usersPage.totalUsersCount,
-//     currentPage: state.usersPage.currentPage,
-//     isFetching: state.usersPage.isFetching,
-//     followingInProgress: state.usersPage.followingInProgress
-//   };
-// };
-
 let mapStateToProps = (state) => {
   return {
     users: getUsers(state),
@@ -81,29 +55,6 @@ let mapStateToProps = (state) => {
     followingInProgress: getFollowingInProgress(state)
   };
 };
-
-// let mapDispatchToProps = (dispatch) => {
-//   return {
-//     follow: (userId) => {
-//       dispatch(followAC(userId));
-//     },
-//     unfollow: (userId) => {
-//       dispatch(unfollowAC(userId));
-//     },
-//     setUsers: (users) => {
-//       dispatch(setUsersAC(users));
-//     },
-//     setCurrentPage: (pageNumber) => {
-//       dispatch(setCurrentPageAC(pageNumber));
-//     },
-//     setTotalUsersCount: (totalCount) => {
-//       dispatch(setTotalUsersCountAC(totalCount));
-//     },
-//     toggleIsFetching: (isFetching) => {
-//       dispatch(toggleIsFetchingAC(isFetching));
-//     }
-//   };
-// };
 
 export default compose(connect(mapStateToProps, {
   follow,
