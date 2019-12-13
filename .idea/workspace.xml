@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,6 +59,13 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\ProfileInfo" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common\Paginator" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common" />
@@ -60,74 +73,85 @@
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\assets\images" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\ProfileInfo" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
-    </key>
   </component>
-  <component name="RunManager" selected="Jest.after deleting length of messages should be decrement">
-    <configuration name="after deleting length of messages should be decrement" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
+    <configuration name="ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="after deleting length of messages should be decrement" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="after creation &lt;input&gt; shouldn't be displayed" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="length of posts should be incremented" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileStatus component.after creation &lt;span&gt; should be displayed with correct status" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="length of posts should be incremented" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="after creation &lt;span&gt; should be displayed with correct status" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="message of nes post should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileStatus component.after creation &lt;span&gt; should contains correct status" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/redux/profile-reducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
       <test-names>
-        <test-name value="message of nes post should be correct" />
+        <test-name value="ProfileStatus component" />
+        <test-name value="after creation &lt;span&gt; should contains correct status" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Post.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Profile/MyPosts/Post.jsx" working-dir="$PROJECT_DIR$/src/components/Profile">
+    <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="callback should be called" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+    <configuration name="ProfileStatus component.input should be displayed in editMode instead of span" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="input should be displayed in editMode instead of span" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="Jest.after deleting length of messages should be decrement" />
-        <item itemvalue="Jest.message of nes post should be correct" />
-        <item itemvalue="Jest.length of posts should be incremented" />
-        <item itemvalue="Node.js.Post.jsx" />
+        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
+        <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode instead of span" />
+        <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should contains correct status" />
+        <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should be displayed with correct status" />
+        <item itemvalue="Jest.ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +272,8 @@
       <workItem from="1576007575979" duration="59000" />
       <workItem from="1576064201500" duration="10000" />
       <workItem from="1576081522492" duration="8907000" />
-      <workItem from="1576142845890" duration="10287000" />
+      <workItem from="1576142845890" duration="11433000" />
+      <workItem from="1576231257874" duration="11172000" />
     </task>
     <task id="LOCAL-00001" summary="add app-reducer">
       <created>1574950052902</created>
@@ -327,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576158489488</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add some changes">
+      <created>1576162344461</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576162344461</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,33 +385,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="add some changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576158488950">
+    <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576238289217">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576158488950" />
-    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1575559076143">
+    <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576238289217" />
+    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576162343930">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="580" y="188" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1575559076143" />
-    <state width="1451" height="221" key="GridCell.Tab.0.bottom" timestamp="1576146380731">
+    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576162343930" />
+    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1576163492641">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576146380731" />
-    <state width="1451" height="221" key="GridCell.Tab.0.center" timestamp="1576146380731">
+    <state x="580" y="188" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576163492641" />
+    <state width="1451" height="221" key="GridCell.Tab.0.bottom" timestamp="1576245978417">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576146380731" />
-    <state width="1451" height="221" key="GridCell.Tab.0.left" timestamp="1576146380730">
+    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576245978417" />
+    <state width="1451" height="221" key="GridCell.Tab.0.center" timestamp="1576245978417">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576146380730" />
-    <state width="1451" height="221" key="GridCell.Tab.0.right" timestamp="1576146380731">
+    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576245978417" />
+    <state width="1451" height="221" key="GridCell.Tab.0.left" timestamp="1576245978417">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576146380731" />
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576158502080">
+    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576245978417" />
+    <state width="1451" height="221" key="GridCell.Tab.0.right" timestamp="1576245978417">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576158502080" />
+    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576245978417" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576162359074">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576162359074" />
   </component>
 </project>
