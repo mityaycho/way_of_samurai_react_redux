@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +69,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
-    <configuration name="ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
-      <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="after creation &lt;input&gt; shouldn't be displayed" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="ProfileStatus component.after creation &lt;span&gt; should be displayed with correct status" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -145,13 +125,23 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.ProfileStatus component.callback should be called" />
         <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode instead of span" />
         <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should contains correct status" />
         <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should be displayed with correct status" />
-        <item itemvalue="Jest.ProfileStatus component.after creation &lt;input&gt; shouldn't be displayed" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +263,9 @@
       <workItem from="1576064201500" duration="10000" />
       <workItem from="1576081522492" duration="8907000" />
       <workItem from="1576142845890" duration="11433000" />
-      <workItem from="1576231257874" duration="11172000" />
+      <workItem from="1576231257874" duration="11324000" />
+      <workItem from="1576335045562" duration="10000" />
+      <workItem from="1576341983324" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="add app-reducer">
       <created>1574950052902</created>
@@ -359,7 +351,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576162344461</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add some changes">
+      <created>1576252007947</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576252007947</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add some changes">
+      <created>1576252053975</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576252053975</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,33 +395,41 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576238289217" />
-    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576252007287">
+    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576252053506">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252007287" />
+    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252053506" />
     <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1576163492641">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="580" y="188" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576163492641" />
-    <state width="1451" height="221" key="GridCell.Tab.0.bottom" timestamp="1576245978417">
+    <state width="1451" height="221" key="GridCell.Tab.0.bottom" timestamp="1576342685835">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576245978417" />
-    <state width="1451" height="221" key="GridCell.Tab.0.center" timestamp="1576245978417">
+    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252134571" />
+    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1576342685835" />
+    <state width="1451" height="221" key="GridCell.Tab.0.center" timestamp="1576342685835">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576245978417" />
-    <state width="1451" height="221" key="GridCell.Tab.0.left" timestamp="1576245978417">
+    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252134571" />
+    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1576342685835" />
+    <state width="1451" height="221" key="GridCell.Tab.0.left" timestamp="1576342685835">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576245978417" />
-    <state width="1451" height="221" key="GridCell.Tab.0.right" timestamp="1576245978417">
+    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252134571" />
+    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1576342685835" />
+    <state width="1451" height="221" key="GridCell.Tab.0.right" timestamp="1576342685835">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576245978417" />
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576162359074">
+    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252134571" />
+    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1576342685835" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576252074834">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576162359074" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252074834" />
+    <state x="456" y="219" key="git4idea.merge.GitPullDialog" timestamp="1576252068530">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="456" y="219" key="git4idea.merge.GitPullDialog/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252068530" />
   </component>
 </project>
