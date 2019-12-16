@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/roller.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withSuspense.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +48,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hoc" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,19 +61,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\ProfileInfo" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
-      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\MyPosts\AddPostForm" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common\Paginator" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\common" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\assets\images" />
       <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\hoc" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Profile\ProfileInfo" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Users" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\redux" />
+      <recent name="C:\My_files\it-kamasutra\way_of_samurai_react_redux\src\components\Dialogs\AddMessageForm" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
@@ -264,7 +273,9 @@
       <workItem from="1576142845890" duration="11433000" />
       <workItem from="1576231257874" duration="11324000" />
       <workItem from="1576335045562" duration="10000" />
-      <workItem from="1576341983324" duration="2514000" />
+      <workItem from="1576341983324" duration="2550000" />
+      <workItem from="1576432979195" duration="15000" />
+      <workItem from="1576508126140" duration="7490000" />
     </task>
     <task id="LOCAL-00001" summary="add app-reducer">
       <created>1574950052902</created>
@@ -371,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576347868286</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add some changes">
+      <created>1576348163295</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576348163295</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +409,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add app-reducer" />
     <MESSAGE value="add useState" />
     <MESSAGE value="add some changes" />
@@ -401,40 +420,40 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576238289217" />
-    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576347867759">
+    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576348162754">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252053506" />
-    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1576347867759" />
+    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1576348162754" />
     <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1576163492641">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="580" y="188" key="FileChooserDialogImpl/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576163492641" />
-    <state width="1451" height="221" key="GridCell.Tab.0.bottom" timestamp="1576342685835">
+    <state width="1451" height="221" key="GridCell.Tab.0.bottom" timestamp="1576509252949">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252134571" />
-    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1576342685835" />
-    <state width="1451" height="221" key="GridCell.Tab.0.center" timestamp="1576342685835">
+    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576509252949" />
+    <state width="1451" height="221" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1576348193394" />
+    <state width="1451" height="221" key="GridCell.Tab.0.center" timestamp="1576509252948">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252134571" />
-    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1576342685835" />
-    <state width="1451" height="221" key="GridCell.Tab.0.left" timestamp="1576342685835">
+    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576509252948" />
+    <state width="1451" height="221" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1576348193394" />
+    <state width="1451" height="221" key="GridCell.Tab.0.left" timestamp="1576509252948">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252134571" />
-    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1576342685835" />
-    <state width="1451" height="221" key="GridCell.Tab.0.right" timestamp="1576342685835">
+    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576509252948" />
+    <state width="1451" height="221" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1576348193394" />
+    <state width="1451" height="221" key="GridCell.Tab.0.right" timestamp="1576509252948">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252134571" />
-    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1576342685835" />
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576347881633">
+    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576509252948" />
+    <state width="1451" height="221" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1576348193394" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576348187096">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576252074834" />
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1576347881633" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1576348187096" />
     <state x="456" y="219" key="git4idea.merge.GitPullDialog" timestamp="1576252068530">
       <screen x="62" y="0" width="1474" height="864" />
     </state>

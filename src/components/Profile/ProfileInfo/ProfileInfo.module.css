@@ -13,3 +13,7 @@
     color: white;
     font-size: large;
 }
+
+.mainPhoto {
+    max-width: 200px;
+}
