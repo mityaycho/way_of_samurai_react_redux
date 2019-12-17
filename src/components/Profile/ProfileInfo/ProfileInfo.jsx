@@ -5,7 +5,7 @@ import userPhoto from "../../../assets/images/roller.jpg"
 import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 import ProfileDataForm from "./ProfileDataForm";
 
-const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
+const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto, saveProfile}) => {
 
   let [editMode, setEditMode] = useState(false);
 
@@ -19,13 +19,18 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
     }
   };
 
+  const onSubmit = (formData) => {
+    saveProfile(formData);
+    setEditMode(false)
+  };
+
   return (
     <div className={style.headerPhoto}>
       <div className={style.descriptionBlock}>
         <img src={profile.photos.large || userPhoto} className={style.mainPhoto}/>
         {isOwner && <input type="file" onChange={onMainPhotoSelected}/>}
         {editMode ?
-          <ProfileDataForm profile={profile} /> :
+          <ProfileDataForm initialValues={profile} profile={profile} onSubmit={onSubmit} /> :
           <ProfileData goToEditMode={() => {setEditMode(true)}} profile={profile} isOwner={isOwner} />}
         <ProfileStatusWithHooks status={status} updateStatus={updateStatus}/>
       </div>
