@@ -4,7 +4,7 @@ import Post from "./Post";
 import AddPostForm from "./AddPostForm/AddPostForm";
 
 const MyPosts = React.memo(props => {
-  let postsElements = props.posts.map(el => <Post message={el.message} likesCount={el.likesCount} />);
+  let postsElements = props.posts.map(el => <Post key={el.id} message={el.message} likesCount={el.likesCount} />);
   let onAddPost = (values) => {
     props.addPost(values.newPostText);
   };

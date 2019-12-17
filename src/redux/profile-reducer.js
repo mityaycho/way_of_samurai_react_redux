@@ -76,11 +76,11 @@ export const savePhoto = (file) => async (dispatch) => {
 export const saveProfile = (profile) => async (dispatch, getState) => {
   const userId = getState().auth.userId;
   const res = await profileAPI.saveProfile(profile);
-  debugger
   if (res.data.resultCode === 0) {
     dispatch(getUserProfile(userId));
   } else {
-    dispatch(stopSubmit())
+    dispatch(stopSubmit("edit-profile", {_error: res.data.messages[0]}));
+    return Promise.reject(res.data.messages[0]);
   }
 };
 
