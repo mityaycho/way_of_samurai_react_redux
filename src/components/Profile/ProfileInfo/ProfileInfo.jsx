@@ -6,7 +6,7 @@ import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 
 const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
   if (!profile) {
-    return <Preloader />;
+    return <Preloader/>;
   }
 
   const onMainPhotoSelected = (e) => {
@@ -19,8 +19,27 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto}) => {
     <div className={style.headerPhoto}>
       <div className={style.descriptionBlock}>
         <img src={profile.photos.large || userPhoto} className={style.mainPhoto}/>
-        {isOwner && <input type="file" onChange={onMainPhotoSelected} /> }
-        <ProfileStatusWithHooks status={status} updateStatus={updateStatus} />
+        {isOwner && <input type="file" onChange={onMainPhotoSelected}/>}
+        <div>
+          <div>
+            <b>full name</b>: {profile.fullName}
+          </div>
+          <div>
+            <b>Looking for a job</b>: {profile.lookingForAJob ? "yes" : "no"}
+          </div>
+          {profile.lookingForAJob &&
+          <div>
+            <b>My professional skills</b>: {profile.loodingForAJobDescription}
+          </div>
+          }
+          <div>
+            <b>About me</b>: {profile.aboutMe}
+          </div>
+          <div>
+            <b>Contacts</b>: {profile.aboutMe}
+          </div>
+        </div>
+        <ProfileStatusWithHooks status={status} updateStatus={updateStatus}/>
       </div>
     </div>
   );
