@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63a01049-3520-4a0c-9c20-cb31e78006a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +281,7 @@
       <workItem from="1576664032687" duration="1000" />
       <workItem from="1576664143012" duration="90000" />
       <workItem from="1576664241266" duration="151000" />
-      <workItem from="1576664414263" duration="4175000" />
+      <workItem from="1576664414263" duration="5301000" />
     </task>
     <task id="LOCAL-00001" summary="add app-reducer">
       <created>1574950052902</created>
@@ -439,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576668031091</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add captcha input">
+      <created>1576669228788</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1576669228788</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +469,8 @@
     <MESSAGE value="add useState" />
     <MESSAGE value="add some changes" />
     <MESSAGE value="add captcha" />
-    <option name="LAST_COMMIT_MESSAGE" value="add captcha" />
+    <MESSAGE value="add captcha input" />
+    <option name="LAST_COMMIT_MESSAGE" value="add captcha input" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="93" key="#Scopes" timestamp="1576667533084">
@@ -475,10 +481,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576238289217" />
-    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576668030523">
+    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576669228325">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576668030523" />
+    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576669228325" />
     <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1576348162754" />
     <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1576163492641">
       <screen x="62" y="0" width="1474" height="864" />
@@ -508,10 +514,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="475" y="110" width="1033" height="716" key="SettingsEditor/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576664525703" />
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576668047446">
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576669237015">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576668047446" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576669237015" />
     <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1576348187096" />
     <state x="355" y="95" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576668404710">
       <screen x="62" y="0" width="1474" height="864" />

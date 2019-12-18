@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Route, withRouter} from "react-router-dom";
+import {BrowserRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import UsersContainer from "./components/Users/UsersContainer";
@@ -28,10 +28,13 @@ class App extends Component {
         <HeaderContainer/>
         <NavBar/>
         <div className="app-wrapper-content">
-          <Route path="/dialogs" render={withSuspense(DialogsContainer)} />
-          <Route path="/profile/:userId?" render={withSuspense(ProfileContainer)} />
-          <Route path="/users" render={() => <UsersContainer/>}/>
-          <Route path="/login" render={() => <LoginPage/>}/>
+          <Switch>
+            <Route exact path="/" render={() => <Redirect to="/profile" />} />
+            <Route path="/dialogs" render={withSuspense(DialogsContainer)} />
+            <Route path="/profile/:userId?" render={  withSuspense(ProfileContainer)} />
+            <Route path="/users" render={() => <UsersContainer/>}/>
+            <Route path="/login" render={() => <LoginPage/>}/>
+          </Switch>
         </div>
       </div>
     );
