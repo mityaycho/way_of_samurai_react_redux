@@ -14,9 +14,13 @@ const LoginForm = ({handleSubmit, error, captchaUrl}) => {
       {createField("Email", "email", [required], Input)}
       {createField("Password", "password", [required], Input,
         {type: "password"})}
+
       {createField(null, "rememberMe", [], Input,
         {type: "checkbox"}, " remember me")}
-      {error && <img src={captchaUrl} />}
+
+      {captchaUrl && <img src={captchaUrl} />}
+      {captchaUrl && createField("Symbols from image", "captcha", [required], Input, {})}
+
       {error && <div className={styles.formSummaryError}>{error}</div>}
       <div>
         <button>Login</button>
@@ -29,7 +33,7 @@ const LoginReduxForm = reduxForm({form: 'login'})(LoginForm);
 
 const Login = (props) => {
   const onSubmit = (formData) => {
-    props.login(formData.email, formData.password, formData.rememberMe)
+    props.login(formData.email, formData.password, formData.rememberMe, formData.captcha)
   };
 
   if (props.isAuth) {

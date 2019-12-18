@@ -283,7 +283,7 @@
       <workItem from="1576664032687" duration="1000" />
       <workItem from="1576664143012" duration="90000" />
       <workItem from="1576664241266" duration="151000" />
-      <workItem from="1576664414263" duration="2911000" />
+      <workItem from="1576664414263" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="add app-reducer">
       <created>1574950052902</created>
@@ -432,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576611278031</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add captcha">
+      <created>1576668031091</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576668031091</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +463,8 @@
     <MESSAGE value="add app-reducer" />
     <MESSAGE value="add useState" />
     <MESSAGE value="add some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some changes" />
+    <MESSAGE value="add captcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="add captcha" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="93" key="#Scopes" timestamp="1576667533084">
@@ -467,10 +475,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576238289217" />
-    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576611277576">
+    <state x="423" y="18" key="CommitChangelistDialog2" timestamp="1576668030523">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576611277576" />
+    <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576668030523" />
     <state x="423" y="18" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1576348162754" />
     <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1576163492641">
       <screen x="62" y="0" width="1474" height="864" />
@@ -500,15 +508,15 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="475" y="110" width="1033" height="716" key="SettingsEditor/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576664525703" />
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576611286113">
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1576668047446">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576611286113" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576668047446" />
     <state x="392" y="166" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1576348187096" />
-    <state x="355" y="95" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576666263923">
+    <state x="355" y="95" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576668404710">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="355" y="95" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576666263923" />
+    <state x="355" y="95" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/62.0.1474.864/1920.0.1680.1020@62.0.1474.864" timestamp="1576668404710" />
     <state x="456" y="219" key="git4idea.merge.GitPullDialog" timestamp="1576252068530">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
