@@ -1,5 +1,5 @@
 import profileReducer, {addPostActionCreator, deletePost} from "./profile-reducer";
-import React from "react";
+
 
 let state = {
   posts: [
