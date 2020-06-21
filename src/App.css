@@ -1,18 +1,19 @@
 .app-wrapper {
-  margin: 0 auto;
-  width: 1400px;
-  display: grid;
+	margin: 0 auto;
+	width: 100%;
+	display: grid;
 
-  grid-template-areas:
-  "h h"
-  "n c";
+	grid-template-areas:
+		"h h"
+		"n c";
 
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 0px;
+	grid-template-rows: 60px 1fr;
+	grid-template-columns: 2fr 10fr;
+	grid-gap: 0px;
 }
 
 .app-wrapper-content {
-  grid-area: c;
-  background-color: lightcoral;
+	grid-area: c;
+	padding: 5%;
+	background: url("../src/assets/images/Bigstock_349790512.jpg") repeat;
 }
