@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {BrowserRouter, Redirect, Route, Switch, withRouter} from "react-router-dom";
+import {Redirect, Route, Switch, withRouter, HashRouter} from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import UsersContainer from "./components/Users/UsersContainer";
@@ -49,11 +49,11 @@ const AppContainer = compose(
   connect(mapStateToProps, {initializeApp}))(App);
 
 const AppWithBrowserRouter = (props) => {
-  return <BrowserRouter>
+  return <HashRouter>
     <Provider store={store}>
       <AppContainer />
     </Provider>
-  </BrowserRouter>
+  </HashRouter>
 };
 
 export default AppWithBrowserRouter;
