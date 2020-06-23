@@ -34,7 +34,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" render={() => <Redirect to="/profile" />} />
             <Route path="/dialogs" render={withSuspense(DialogsContainer)} />
-            <Route path="/profile/:userId?" render={  withSuspense(ProfileContainer)} />
+            <Route path="/profile/:userId?" render={withSuspense(ProfileContainer)} />
             <Route path="/users" render={() => <UsersContainer/>}/>
             <Route path="/login" render={() => <LoginPage/>}/>
           </Switch>
@@ -51,11 +51,13 @@ const AppContainer = compose(
   connect(mapStateToProps, {initializeApp}))(App);
 
 const AppWithBrowserRouter = (props) => {
-  return <BrowserRouter>
-    <Provider store={store}>
-      <AppContainer />
-    </Provider>
-  </BrowserRouter>
+  return (
+		<BrowserRouter>
+			<Provider store={store}>
+				<AppContainer />
+			</Provider>
+		</BrowserRouter>
+	);
 };
 
 export default AppWithBrowserRouter;
