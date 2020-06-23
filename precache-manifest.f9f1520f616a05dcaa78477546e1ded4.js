@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77e3eb526a6ac87d2ce47927343f2dc0",
+    "revision": "660ed9bc6b5d5a33409fa007d33a335b",
     "url": "/way_of_samurai_react_redux/index.html"
   },
   {
@@ -8,32 +8,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/way_of_samurai_react_redux/static/css/3.7f8ff71f.chunk.css"
   },
   {
-    "revision": "e8f88d2b92c65f3c214b",
+    "revision": "09d9c61e4dc7a0a2d83c",
     "url": "/way_of_samurai_react_redux/static/css/4.5512173f.chunk.css"
   },
   {
-    "revision": "259f032d2f97180c85f5",
+    "revision": "0cbea3af963aa054ea44",
     "url": "/way_of_samurai_react_redux/static/css/main.01fb44d6.chunk.css"
   },
   {
-    "revision": "b1c4b89501e92f82f554",
-    "url": "/way_of_samurai_react_redux/static/js/2.eb485593.chunk.js"
+    "revision": "1676c763474a5bd990f9",
+    "url": "/way_of_samurai_react_redux/static/js/2.46c0e033.chunk.js"
   },
   {
     "revision": "7a299c7d5356e100fbca",
     "url": "/way_of_samurai_react_redux/static/js/3.296fc256.chunk.js"
   },
   {
-    "revision": "e8f88d2b92c65f3c214b",
-    "url": "/way_of_samurai_react_redux/static/js/4.00408a81.chunk.js"
+    "revision": "09d9c61e4dc7a0a2d83c",
+    "url": "/way_of_samurai_react_redux/static/js/4.f92513f1.chunk.js"
   },
   {
-    "revision": "259f032d2f97180c85f5",
-    "url": "/way_of_samurai_react_redux/static/js/main.e2b4cfa6.chunk.js"
+    "revision": "0cbea3af963aa054ea44",
+    "url": "/way_of_samurai_react_redux/static/js/main.870f91c7.chunk.js"
   },
   {
-    "revision": "2735bad75a2562d20b77",
-    "url": "/way_of_samurai_react_redux/static/js/runtime-main.5729fb97.js"
+    "revision": "d2a5e165818008bf6e4e",
+    "url": "/way_of_samurai_react_redux/static/js/runtime-main.f497f43a.js"
   },
   {
     "revision": "bb68a89d59ffef59443609ec11105d36",
