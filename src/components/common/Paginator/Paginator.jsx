@@ -16,6 +16,7 @@ let Paginator = ({totalItemsCount, pageSize, currentPage, onPageChanged, portion
   return <div className={style.pagesNumbers}>
     {portionNumber > 1 &&
     <button onClick={() => {setPortionNumber(portionNumber - 1)} }>Prev</button>}
+
       {pages.filter(p => p >= leftPortionPageNumber && p <= rightPortionPageNumber)
         .map(el => {
           return <span className={cn({
@@ -24,6 +25,7 @@ let Paginator = ({totalItemsCount, pageSize, currentPage, onPageChanged, portion
                 onClick={(event) => (
                   onPageChanged(el))}>{el}</span>
         })}
+				
     {portionCount > portionNumber &&
     <button onClick={() => {setPortionNumber(portionNumber + 1)}}>Next</button>}
     </div>
